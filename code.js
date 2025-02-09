@@ -16,5 +16,5 @@ function fibo(n, arr) {
     // Calculates new fib numbers
     arr[n] = fibo(n - 1, arr) + fibo(n - 2, arr);
 
-    return arr[n]
+    return arr[n];
 }
