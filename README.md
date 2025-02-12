@@ -30,8 +30,8 @@ your answer to this markdown file.
 
 
 ## Answers
-* Invariant: For all integers values of less than or equal to i, $fib(i)=arr[i]$.
-* I wanted this invariant because I know that on the step before for $fib[i-1]$, I stored the value in $arr[i-1]$ so the next step should store $fib(i)& in $arr[i]$.
+* Invariant: For all n values less than i, $fib(n)=arr[n]$.
+* I wanted this invariant because I know that on the step before for i, I stored the value in $arr[i-1]$ so the next step should store $fib(i)$ in $arr[i]$. This means every value less than i should be sorted already.
 
 
 ## Sources
